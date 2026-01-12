@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #0f172a;
+  padding: 1rem 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+/* HERO */
+.hero {
+  background: #f1f5f9;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+}
+
+/* SERVICES */
+.services {
+  padding: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* ABOUT */
+.about {
+  background: #f1f5f9;
+  padding: 4rem 0;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about ul {
+  margin-top: 1rem;
+}
+
+/* PROCESS */
+.process {
+  padding: 4rem 0;
+}
+
+.steps {
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.step span {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  margin-bottom: 1rem;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  background: #f1f5f9;
+  padding: 4rem 0;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* CTA */
+.cta {
+  background: #2563eb;
+  color: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content,
+  .about-content,
+  .service-cards,
+  .steps,
+  .testimonial-cards {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin-left: 0.5rem;
+  }
+}
